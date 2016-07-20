@@ -1184,7 +1184,7 @@ var MDwiki;
         // menusrc += '</ul></div>';
 
         var navbar = '';
-        navbar += '<div id="md-main-navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">';
+        navbar += '<div id="md-main-navbar" class="navbar navbar-default navbar-fixed-top" role="navigation"><div class="container">';
         navbar +=   '<div class="navbar-header">';
         navbar +=     '<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">';
         navbar +=       '<span class="sr-only">Toggle navigation</span>';
@@ -1199,7 +1199,7 @@ var MDwiki;
         navbar +=     '<ul class="nav navbar-nav" />';
         navbar +=     '<ul class="nav navbar-nav navbar-right" />';
         navbar +=   '</div>';
-        navbar += '</div>';
+        navbar += '</div></div>';
         var $navbar = $(navbar);
 
         $navbar.appendTo('#md-menu');
